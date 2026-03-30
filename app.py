@@ -119,7 +119,7 @@ else:
         ]
     })
 
-st.subheader("📄 Data Preview")
+st.subheader("📄Sample Data Preview")
 st.dataframe(df.head())
 
 # ==============================
