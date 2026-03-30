@@ -94,7 +94,7 @@ def get_synonyms(word):
 # ==============================
 # FILE LOAD
 # ==============================
-uploaded_file = st.file_uploader("Upload CSV", type=["csv"])
+uploaded_file = st.file_uploader("Upload CSV(Contains product_name as one column)", type=["csv"])
 
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
